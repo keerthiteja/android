@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
+  <remove-project name="LineageOS/android_art" />
+  <remove-project name="LineageOS/android_bionic" />
+  <remove-project name="LineageOS/android_device_lineage_sepolicy" />
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" />
+  <remove-project name="LineageOS/android_lineage-sdk" />
+  <remove-project name="LineageOS/android_packages_apps_LineageParts" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_packages_services_Telecomm" />
+  <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="LineageOS/android_system_vold" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
+  <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/system/iorap" />
+
+  <project path="art" name="android_art" groups="pdk" remote="hyper" revision="lineage-18.1" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="hyper" revision="lineage-18.1" />
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="hyper" revision="lineage-18.1" />
+  <project path="device/samsung_slsi/sepolicy" name="LineageOS/android_device_samsung_slsi_sepolicy" revision="lineage-18.1" />
+  <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" groups="pdk" revision="ruby" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="hyper" revision="lineage-18.1" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="hyper" revision="lineage-18.1" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="hyper" revision="lineage-18.1" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="hyper" revision="lineage-18.1" />
+  <project path="frameworks/support/lottie" name="crdroidandroid/android_frameworks_support_lottie" remote="github" revision="11.0" />
+  <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" revision="lineage-18.1" />
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" revision="lineage-18.1" />
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="hyper" revision="lineage-18.1" />
+  <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="hyper" revision="lineage-18.1" />
+  <project path="packages/apps/RealmeParts" name="HyperTeam/android_packages_apps_RealmeParts" remote="github" revision="lineage-18.1" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="hyper" revision="lineage-18.1" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="hyper" revision="lineage-18.1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-7141649" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-7141649" remote="github" revision="11.0" clone-depth="1" />
+  <project path="system/core" name="android_system_core" remote="hyper" revision="lineage-18.1" />
+  <project path="system/iorap" name="android_system_iorap" groups="pdk" remote="hyper" revision="lineage-18.1" />
+  <project path="system/vold" name="android_system_vold" groups="pdk" remote="hyper" revision="lineage-18.1" />
+  <project path="vendor/lineage" name="android_vendor_lineage" remote="hyper" revision="lineage-18.1" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="hyper" revision="lineage-18.1" />
+  <project path="external/asus/stitchimage" name="syberia-project/platform_external_asus_stitchimage" remote="github" revision="11.0" />
+  <project path="external/motorola/faceunlock" name="sairam60/android_external_motorola_faceunlock" remote="gitlab" revision="lineage-18.1" />
+</manifest>
