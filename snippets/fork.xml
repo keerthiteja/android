@@ -22,6 +22,7 @@
   <remove-project name="LineageOS/android_vendor_lineage" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/system/iorap" />
 
   <project path="art" name="android_art" groups="pdk" remote="hyper" revision="lineage-18.1" />
@@ -52,4 +53,5 @@
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="hyper" revision="lineage-18.1" />
   <project path="external/asus/stitchimage" name="syberia-project/platform_external_asus_stitchimage" remote="github" revision="11.0" />
   <project path="external/motorola/faceunlock" name="sairam60/android_external_motorola_faceunlock" remote="gitlab" revision="lineage-18.1" />
+  <project path="prebuilts/abi-dumps/vndk" name="crdroidandroid/android_prebuilts_abi-dumps_vndk" clone-depth="1" revision="11.0" />
 </manifest>
