@@ -60,5 +60,8 @@
   <project path="prebuilts/abi-dumps/vndk" name="crdroidandroid/android_prebuilts_abi-dumps_vndk" clone-depth="1" revision="11.0" />
   <project path="vendor/codeaurora/telphony" name="android_vendor_codeaurora_telephony" remote="hyper" revision="lineage-18.1" />
   <project path="libcore" name="android_libcore" remote="hyper" revision="lineage-18.1" />
-  <project path="build/soong" name="android_build_soong" remote="hyper" revision="lineage-18.1" />
+  <project path="build/soong" name="android_build_soong" remote="hyper" revision="lineage-18.1">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
 </manifest>
