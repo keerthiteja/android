@@ -26,6 +26,7 @@
   <remove-project name="platform/system/iorap" />
   <remove-project name="LineageOS/android_vendor_codeaurora_telephony" />
   <remove-project name="platform/libcore" />
+  <remove-project name="LineageOS/android_build_soong" />
 
   <project path="art" name="android_art" groups="pdk" remote="hyper" revision="lineage-18.1" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="hyper" revision="lineage-18.1" />
@@ -58,4 +59,5 @@
   <project path="prebuilts/abi-dumps/vndk" name="crdroidandroid/android_prebuilts_abi-dumps_vndk" clone-depth="1" revision="11.0" />
   <project path="vendor/codeaurora/telphony" name="android_vendor_codeaurora_telephony" remote="hyper" revision="lineage-18.1" />
   <project path="libcore" name="android_libcore" remote="hyper" revision="lineage-18.1" />
+  <project path="build/soong" name="android_build_soong" remote="hyper" revision="lineage-18.1" />
 </manifest>
