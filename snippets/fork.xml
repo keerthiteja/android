@@ -53,6 +53,7 @@
   <project path="system/iorap" name="android_system_iorap" groups="pdk" remote="hyper" revision="lineage-18.1" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="hyper" revision="lineage-18.1" />
   <project path="vendor/lineage" name="android_vendor_lineage" remote="hyper" revision="lineage-18.1" />
+  <project path="vendor/google/gms" name="iamsj7/vendor_google_gms" remote="gitlab" revision="r" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="hyper" revision="lineage-18.1" />
   <project path="external/asus/stitchimage" name="syberia-project/platform_external_asus_stitchimage" remote="github" revision="11.0" />
   <project path="external/motorola/faceunlock" name="sairam60/android_external_motorola_faceunlock" remote="gitlab" revision="lineage-18.1" />
