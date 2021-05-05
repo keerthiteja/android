@@ -1,10 +1,12 @@
-LineageOS
+Fork LineageOS
 ===========
+
+Android custom ROM project based on LineageOS/AOSP, with minimal features, functionality and most importantly, performance.
 
 Getting started
 ---------------
 
-To get started with Android/LineageOS, you'll need to get
+To get started with ForkLineageOS, you'll need to get
 familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
 
 To initialize your local repository using the LineageOS trees, use a command like this:
@@ -13,25 +15,26 @@ repo init -u git://github.com/ForkLineageOS/android.git -b lineage-18.1
 ```
 Then to sync up:
 ```
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -c -q --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
+
+## Finally, to build
+```
+$ source build/envsetup.sh
+$ lunch lineage_$device-userdebug
+$ make bacon -j$(nproc --all)
+```
+
+## Credits
+
+ * [**LineageOS**](https://github.com/LineageOS)
+ * [**Paranoid Android**](https://github.com/AOSPA)
+ * [**CodeAurora Forum**](https://source.codeaurora.org/quic/la/)
+ * [**ProtonAOSP**](https://github.com/ProtonAOSP)
+ * [**PixelExperience**](https://github.com/PixelExperience)
+ * [**ABC-ROM**](https://github.com/ezio84)
 
 
-Submitting patches
-------------------
-Patches are always welcome! Please submit your patches via LineageOS Gerrit!
-
-Simply follow our guide on [how to submit patches](https://wiki.lineageos.org/submitting-patch-howto.html).
-
-To view the status of your and others' patches, visit [LineageOS Gerrit Code Review](https://review.lineageos.org/).
-
-
-Buildbot
+Important Links
 --------
-
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [LineageOS Buildkite](https://buildkite.com/lineageos).
-
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
+Join our telegram Discussion [ForkLineageDiscussion](https://t.me/ForkLineageOS).
