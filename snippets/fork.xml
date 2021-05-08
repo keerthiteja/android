@@ -3,6 +3,15 @@
   <remote name="gitlab"
           fetch="https://gitlab.com" />
 
+  <remote name="pixel-gitlab-self-hosted"
+          fetch="https://gitlab.pixelexperience.org/android"
+          revision="eleven" />
+
+  <remote name="pixel"
+          fetch="https://github.com/PixelExperience"
+          revision="eleven"
+          review="gerrit.pixelexperience.org" />
+
   <!-- Removed projects from remote -->
   <remove-project name="LineageOS/android_art" />
   <remove-project name="LineageOS/android_bionic" />
@@ -48,8 +57,9 @@
 
   <!-- Exyernal Repos -->
   <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" groups="pdk" revision="ruby" />
-  <project path="external/asus/stitchimage" name="syberia-project/platform_external_asus_stitchimage" remote="github" revision="11.0" />
-  <project path="external/motorola/faceunlock" name="sairam60/android_external_motorola_faceunlock" remote="gitlab" revision="lineage-18.1" />
+  <project path="external/asus/stitchimage" name="crdroidandroid/android_external_asus_stitchimage" remote="crdroid" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
 
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="hyper" revision="lineage-18.1" />
