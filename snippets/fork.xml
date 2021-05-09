@@ -25,7 +25,6 @@
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
   <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
-  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <remove-project name="LineageOS/android_packages_apps_WallpaperPicker2" />
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
   <remove-project name="LineageOS/android_system_core" />
@@ -80,10 +79,10 @@
   <project path="packages/apps/RealmeParts" name="HyperTeam/android_packages_apps_RealmeParts" remote="github" revision="lineage-18.1" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="hyper" revision="lineage-18.1" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="hyper" revision="lineage-18.1" />
-  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="hyper" revision="lineage-18.1" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="hyper" revision="lineage-18.1" />
   <project path="packages/overlays/Lineage" name="android_packages_overlays_Lineage" remote="hyper" revision="lineage-18.1" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="hyper" revision="lineage-18.1" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="hyper" revision="lineage-18.1" />
 
   <!-- Prebuilt Repos-->
   <project path="prebuilts/clang/host/linux-x86/clang-7141649" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-7141649" remote="github" revision="11.0" clone-depth="1" />
