@@ -100,5 +100,5 @@
   <project path="vendor/support" name="android_vendor_support" remote="hyper" revision="lineage-18.1" />
 
   <!-- Gapps External-->
-  <project path="vendor/google/gms" name="iamsj7/vendor_google_gms" remote="gitlab" revision="r" />
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow-gitlab" clone-depth="1" />
 </manifest>
