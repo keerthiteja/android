@@ -37,6 +37,7 @@
   <remove-project name="LineageOS/android_vendor_codeaurora_telephony" />
   <remove-project name="platform/libcore" />
   <remove-project name="LineageOS/android_build_soong" />
+  <remove-project name="platform/system/security" />
 
 
   <!-- Build Soong -->
@@ -91,6 +92,7 @@
   <project path="system/core" name="android_system_core" remote="hyper" revision="lineage-18.1" />
   <project path="system/iorap" name="android_system_iorap" groups="pdk" remote="hyper" revision="lineage-18.1" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="hyper" revision="lineage-18.1" />
+  <project path="system/security" name="android_system_security" groups="pdk" remote="hyper" revision="lineage-18.1" />
 
   <!-- Vendor Repos-->
   <project path="vendor/codeaurora/telphony" name="android_vendor_codeaurora_telephony" remote="hyper" revision="lineage-18.1" />
