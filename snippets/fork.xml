@@ -30,6 +30,7 @@
   <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_system_vold" />
   <remove-project name="LineageOS/android_vendor_lineage" />
+  <remove-project name="LineageOS/android_system_netd" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
@@ -93,6 +94,8 @@
   <project path="system/iorap" name="android_system_iorap" groups="pdk" remote="hyper" revision="lineage-18.1" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="hyper" revision="lineage-18.1" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="hyper" revision="lineage-18.1" />
+  <project path="system/netd" name="android_system_netd" remote="hyper" revision="lineage-18.1" />
+
 
   <!-- Vendor Repos-->
   <project path="vendor/codeaurora/telphony" name="android_vendor_codeaurora_telephony" remote="hyper" revision="lineage-18.1" />
