@@ -45,6 +45,7 @@
   <remove-project name="LineageOS/android_packages_apps_Nfc" />
   <remove-project name="LineageOS/android_system_bt" />
   <remove-project name="LineageOS/android_packages_services_Telephony" />
+  <remove-project name="platform/external/sqlite" />
 
   <!-- Build Soong -->
   <project path="build/soong" name="android_build_soong" remote="hyper" revision="lineage-18.1">
@@ -65,6 +66,7 @@
   <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" groups="pdk" revision="ruby" />
   <project path="external/asus/stitchimage" name="crdroidandroid/android_external_asus_stitchimage" remote="crdroid" />
   <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
+  <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
 
   <!-- Frameworks Repos -->
