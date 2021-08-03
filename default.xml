@@ -14,7 +14,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-11.0.0_r39" />
+           revision="refs/tags/android-11.0.0_r40" />
 
   <remote  name="crdroid"
            fetch="https://github.com/"
@@ -33,6 +33,9 @@
            sync-j="4" />
 
   <!-- AOSP Projects -->
+
+  <superproject name="platform/superproject" remote="aosp"/>
+  <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="ForkLineageOS/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
