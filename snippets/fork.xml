@@ -170,4 +170,7 @@
   <!-- Tools -->
   <project path="tools/metalava" name="android_tools_metalava" remote="hyper" revision="lineage-18.1" />
 
+  <!-- Kdrag0n -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+
 </manifest>
