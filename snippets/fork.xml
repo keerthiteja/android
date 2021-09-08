@@ -161,7 +161,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="hyper" revision="lineage-18.1" />
 
   <!-- Vendor Repos-->
-  <project path="vendor/codeaurora/telphony" name="android_vendor_codeaurora_telephony" remote="hyper" revision="lineage-18.1" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="hyper" revision="lineage-18.1" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="hyper" revision="lineage-18.1" />  
   <project path="vendor/lineage" name="android_vendor_lineage" remote="hyper" revision="lineage-18.1" />
   <project path="vendor/support" name="android_vendor_support" remote="hyper" revision="lineage-18.1" />
