@@ -122,6 +122,7 @@
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" revision="lineage-18.1" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="hyper" revision="lineage-18.1" />
   <project path="hardware/ril" name="android_hardware_ril" remote="hyper" revision="lineage-18.1" />
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-18.1" />
 
   <!-- Lineage SDK -->
   <project path="lineage-sdk" name="android_lineage-sdk" remote="hyper" revision="lineage-18.1" />
