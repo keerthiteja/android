@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Removed projects from remote -->
+  <remove-project name="LineageOS/android_vendor_lineage" />
+
+  <!-- Vendor Repos-->
+  <project path="vendor/lineage" name="android_vendor_lineage" remote="hyper" revision="lineage-19.0" />
+</manifest>
