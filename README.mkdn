@@ -11,11 +11,11 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
-repo init -u git://github.com/ForkLineageOS/android.git -b lineage-18.1
+repo init --depth=1 -u https://github.com/keerthiteja/android.git -b lineage-18.1
 ```
 Then to sync up:
 ```
-repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j `nproc`
 ```
 
 ## Finally, to build
