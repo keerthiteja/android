@@ -20,15 +20,19 @@ repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-
 
 ## Finally, to build
 ```
-$ source build/envsetup.sh
-$ lunch lineage_dumpling-user
-$ mka bacon -j24
+ source build/envsetup.sh
+ export TARGET_FLOS=true
+ export WITH_GMS=true
+ lunch lineage_dumpling-user
+ mka bacon -j24
 ```
 
 ```
-$ source build/envsetup.sh
-$ lunch lineage_cheeseburger-user
-$ mka bacon -j24
+ source build/envsetup.sh
+ lunch lineage_cheeseburger-user
+ export TARGET_FLOS=true
+ export WITH_GMS=true
+ mka bacon -j24
 ```
 
 ## Credits
