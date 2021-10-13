@@ -21,8 +21,14 @@ repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-
 ## Finally, to build
 ```
 $ source build/envsetup.sh
-$ lunch lineage_$device-userdebug
-$ make bacon -j$(nproc --all)
+$ lunch lineage_dumpling-user
+$ mka bacon -j24
+```
+
+```
+$ source build/envsetup.sh
+$ lunch lineage_cheeseburger-user
+$ mka bacon -j24
 ```
 
 ## Credits
