@@ -29,9 +29,9 @@ repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-
 
 ```
  source build/envsetup.sh
- lunch lineage_cheeseburger-user
  export TARGET_FLOS=true
  export WITH_GMS=true
+ lunch lineage_cheeseburger-user
  mka bacon -j24
 ```
 
