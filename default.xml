@@ -22,12 +22,6 @@
            sync-j="4"
            revision="refs/heads/11.0" />
 
-  <remote  name="wave"
-           fetch="https://github.com/"
-           sync-c="true"
-           sync-j="4"
-           revision="refs/heads/r" />
-
   <remote  name="arrow-gitlab"
            fetch="https://gitlab.com/arrowos-project"
            review="https://review.arrowos.net/"
