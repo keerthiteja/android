@@ -13,6 +13,11 @@ To initialize your local repository using the LineageOS trees, use a command lik
 ```
 repo init --depth=1 -u https://github.com/keerthiteja/android.git -b lineage-18.1
 ```
+```
+cd .repo
+git clone https://github.com/roberto-sartori-gl/local_manifests.git local_manifests
+cd ..
+```
 Then to sync up:
 ```
 repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j `nproc`
