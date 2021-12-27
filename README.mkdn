@@ -15,7 +15,7 @@ repo init --depth=1 -u https://github.com/keerthiteja/android.git -b lineage-18.
 ```
 ```
 cd .repo
-git clone https://github.com/roberto-sartori-gl/local_manifests.git local_manifests
+git clone https://github.com/keerthiteja/local_manifests.git -b flos-11 local_manifests
 cd ..
 ```
 Then to sync up:
